@@ -24,5 +24,7 @@ public class Salario {
         }
     
         System.out.printf("A remuneração final é: %.2f%n", remuneracaoFinal);
+        
+        sc.close();
    }
 }
