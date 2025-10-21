@@ -20,6 +20,7 @@ public class Moedas {
         moeda = valor/1;
         valor = valor%1;
         System.out.println("Moedas de 1: " + moeda);
-
+        
+        sc.close();
     }
 }
